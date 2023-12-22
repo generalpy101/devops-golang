@@ -10,7 +10,7 @@ var logger *log.Logger = log.Default()
 
 func main() {
 
-	fmt.Println("Go server starting up...")
+	fmt.Println("Go server starting up....")
 
 	http.HandleFunc("/health", handleHealthCheck)
 	http.HandleFunc("/hello", handleHelloWorld)
